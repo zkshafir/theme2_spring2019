@@ -1,0 +1,55 @@
+section { perspective: 1000px;
+perspective-origin: top;}
+    
+.login {
+    background-color: #8E7FAE;
+}
+
+
+#loginform{
+    color: white;
+    width: 300px;
+    margin: auto;
+    margin-top: 2em;
+    padding: 3em 3em;
+    background-color: #8E7FAE;
+    transform: rotateX(-90deg);
+    transform-origin: top;
+}
+
+loginform.show {
+    animation: open 0.65 forwards:
+}
+
+@keyframes open {
+    50% { transform: rotateX(30deg);}
+}
+100% { transform: rotateX(30deg);}
+
+
+input{
+    display:block;
+    margin-bottom: 3em;
+    margin-top: 1em;
+    width: 90%;
+    border: none;
+    padding: 1em;
+
+}
+
+
+input[type="submit"]{
+    margin-top: 2em;
+    background-color:#FFB4AA;
+    color: white;
+    font-size: 1.2em;
+    padding: 1em;
+    width: 9em;
+    margin: auto;
+    
+}
+
+
+*{font-family:helvetica neue;
+box-sizing: border-box;}
+
